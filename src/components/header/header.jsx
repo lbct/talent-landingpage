@@ -31,44 +31,42 @@ function Header() {
           </button>
 
           {/* Navegación para desktop */}
-          <nav className="hidden md:flex items-center gap-8 text-sm">
-            <ScrollLink 
-              to="features" 
-              smooth={true} 
-              duration={600} 
-              offset={-70} 
-              className="cursor-pointer hover:opacity-70 transition-opacity"
-            >
-              Features
-            </ScrollLink>
+<nav className="hidden md:flex items-center gap-8 text-sm">
+  <ScrollLink 
+    to="features" 
+    smooth={true} 
+    duration={600} 
+    offset={-70} 
+    className="cursor-pointer hover:opacity-70 transition-opacity"
+  >
+    Features
+  </ScrollLink>
 
-            <ScrollLink 
-              to="testimonials" 
-              smooth={true} 
-              duration={600} 
-              offset={-70} 
-              className="cursor-pointer hover:opacity-70 transition-opacity"
-            >
-              Customers
-            </ScrollLink>
+  <ScrollLink 
+    to="testimonials" 
+    smooth={true} 
+    duration={600} 
+    offset={-70} 
+    className="cursor-pointer hover:opacity-70 transition-opacity"
+  >
+    Customers
+  </ScrollLink>
 
-            <ScrollLink 
-              to="pricing" 
-              smooth={true} 
-              duration={600} 
-              offset={-10} 
-              className="cursor-pointer hover:opacity-70 transition-opacity"
-            >
-              Pricing
-            </ScrollLink>
-          </nav>
+  {/* Pricing con mismo estilo que los demás */}
+  <a 
+    href="https://app.talentscoutassistant.com/subscriptions" 
+    className="text-sm cursor-pointer hover:opacity-70 transition-opacity"
+  >
+    Pricing
+  </a>
+</nav>
 
           {/* Botones */}
           <div className="hidden md:flex items-center gap-3">
-            <a href="#login" className="text-sm hover:opacity-70 transition-opacity">Log in</a>
-            <a href="#cta" className="inline-flex items-center rounded-full bg-black px-4 py-2 text-sm font-medium text-white hover:bg-neutral-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/30">
-              Get Started
-            </a>
+            <a href="https://app.talentscoutassistant.com/login" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Log in</a>
+            <a href="https://app.talentscoutassistant.com/register" className="block mt-2 px-3 py-2 rounded-md text-base font-medium text-white bg-black hover:bg-neutral-800 text-center">
+            Get Started </a>
+
           </div>
         </div>
 
@@ -98,20 +96,12 @@ function Header() {
                 Testimonials
               </ScrollLink>
 
-              <ScrollLink 
-                to="pricing" 
-                smooth={true} 
-                duration={600} 
-                offset={-10} 
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 cursor-pointer"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Pricing
-              </ScrollLink>
+              <a href="https://app.talentscoutassistant.com/subscriptions" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 cursor-pointer"onClick={() => setIsMenuOpen(false)}>
+                  Pricing</a>
 
               <div className="pt-4 pb-2 border-t border-gray-200">
-                <a href="#login" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Log in</a>
-                <a href="#cta" className="block mt-2 px-3 py-2 rounded-md text-base font-medium text-white bg-black hover:bg-neutral-800 text-center">
+                <a href="https://app.talentscoutassistant.com/login" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Log in</a>
+                <a href="https://app.talentscoutassistant.com/register" className="block mt-2 px-3 py-2 rounded-md text-base font-medium text-white bg-black hover:bg-neutral-800 text-center">
                   Get Started
                 </a>
               </div>
