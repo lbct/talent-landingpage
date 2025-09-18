@@ -2,6 +2,7 @@ import person1 from "../assets/person1.png"
 import persona2 from "../assets/person2.png"
 import persona3 from "../assets/person3.png"
 import persona4 from "../assets/person4.png"
+import persona5 from "../assets/persona5.jpeg"
 import Bolivisión2025 from "../assets/Bolivisión2025.png"
 import wixstatic from "../assets/wixstatic.png"
 import toyota from "../assets/toyota.png"
@@ -37,7 +38,7 @@ export const hiringManagers = [
   },
   {
     logo: "https://images.squarespace-cdn.com/content/v1/61c1f491e2c5cd5d6d687d24/2366a9b0-2d50-420a-9d12-af9df7ddd647/RH_Primary_CMYK.png",
-    extraImg: persona4,
+    extraImg: persona5,
     description:
       "Talent Scout's AI resume screening tool made it incredibly easy for us to upload job descriptions and resumes, providing clear assessment and matching scores. We were extremely impressed with the data-driven insights, which streamlined our hiring process. The outcome was fantastic, as the tool directly led us to make some of our best hires to date."
   },
