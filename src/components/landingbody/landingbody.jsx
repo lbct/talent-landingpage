@@ -60,7 +60,7 @@ export default function LandingBody() {
       {/* Feature strip */}
       <section id="features" className="border-y border-black/5 bg-white/70 backdrop-blur py-10 sm:py-12">
        <h1 className="text-xl/tight sm:text-2xl/tight md:text-4xl/tight font-semibold tracking-tight">
-  Intuitive, user-configurable AI-powered candidate evaluation tool that quickly y easily helps you find the right candidate fit. 
+  Intuitive, user-configurable AI-powered candidate evaluation tool that quickly and easily helps you find the right candidate fit. 
   <span className="text-neutral-400"></span>
 </h1>
 <br />
